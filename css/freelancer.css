@@ -112,6 +112,7 @@ header {
     background-attachment: fixed;
     height:100%;
     width:100%;
+    overflow: hidden;
 }
 
 header .container {
@@ -136,6 +137,7 @@ header .container {
     color: transparent;
     text-align: center;
     font-size: 50px;
+    overflow: hidden;
 }
 
 
