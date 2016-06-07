@@ -123,14 +123,15 @@ header .container {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 1150px 135px;
-   height: 100%;
-   width: 100%;
-   margin-top: 50px;
-    padding: 245px;
-   color: transparent;
-   text-align: center;
-   font-size: 50px;
+    //background-size: 1150px 135px;
+    background-size: 80% 20%;
+    height: 100%;
+    width: 100%;
+    margin-top: 4%;
+    padding: 20%;
+    color: transparent;
+    text-align: center;
+    font-size: 50px;
 }
 
 
