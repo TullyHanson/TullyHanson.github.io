@@ -309,7 +309,7 @@ header .container {
     //display: block;
     margin: 0 auto;
     //width: 700px;
-    width: 95%;
+    width: 75%;
     border-top: 1px solid #e0e0e0;
     
 }
@@ -318,7 +318,7 @@ header .container {
     background: url(../img/separator.png);
     height: 9px;
     //width: 576px;
-    width: 80%;
+    width: 60%;
     margin-bottom: 75px;
 }
 
