@@ -308,7 +308,8 @@ header .container {
     //padding-bottom: 130px;
     //display: block;
     margin: 0 auto;
-    width: 700px;
+    //width: 700px;
+    width: 95%;
     border-top: 1px solid #e0e0e0;
     
 }
@@ -316,7 +317,8 @@ header .container {
     margin: 0 auto;
     background: url(../img/separator.png);
     height: 9px;
-    width: 576px;
+    //width: 576px;
+    width: 80%;
     margin-bottom: 75px;
 }
 
