@@ -149,10 +149,9 @@ header .container {
 }
 
 .projectContainer {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  
+  padding-left: 2%;
+  padding-right: 2%;
   height: 250px;
 }
 
