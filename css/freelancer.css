@@ -149,7 +149,6 @@ header .container {
 }
 
 .projectContainer {
-  padding-top: 40%;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -184,9 +183,9 @@ header .container {
 
 .experienceContainer {
     position: relative;
-    padding-left: 60px;
-    padding-right: 60px;
-    margin-left: 45.666667%;   
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 15.666667%;   
     //display: inline-block;
     text-align: left;
     //display: block;
