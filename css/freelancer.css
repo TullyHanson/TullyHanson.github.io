@@ -112,7 +112,6 @@ header {
     background-image: url(http://www.designbolts.com/wp-content/uploads/2013/02/Texture-Tasty-Grey-Seamless-Pattern-For-Website-Background.jpg);
     /*Maybe http://www.modernservice.ru/wp-content/uploads/2014/06/light-gray-texture.png*/
     background-attachment: fixed;
-    padding-top:20%;
     height:100%;
     width:100%;
     overflow: hidden;
@@ -150,6 +149,7 @@ header .container {
 }
 
 .projectContainer {
+  padding-top: 40%;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
