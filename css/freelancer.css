@@ -149,10 +149,10 @@ header .container {
 }
 
 .projectContainer {
-  
+  position: center;
   padding-left: 2%;
   padding-right: 2%;
-  height: 250px;
+  height: 23%;
 }
 
 .experienceDescription {
