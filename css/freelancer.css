@@ -182,10 +182,10 @@ header .container {
 }
 
 .experienceContainer {
-    position: center;
+    position: relative;
     padding-left: 5%;
     padding-right: 5%;
-    margin-left: 5.666667%;   
+    margin-left: 45.666667%;   
     //display: inline-block;
     text-align: left;
     //display: block;
