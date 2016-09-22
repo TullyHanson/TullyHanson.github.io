@@ -7,6 +7,8 @@
 
 body {
     overflow-x: hidden;
+    height: 100%;
+    min-height: 100%;
 }
 
 p {
@@ -32,7 +34,6 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -109,11 +110,13 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background-image: url(http://www.designbolts.com/wp-content/uploads/2013/02/Texture-Tasty-Grey-Seamless-Pattern-For-Website-Background.jpg);
+    //background-image: url(http://www.designbolts.com/wp-content/uploads/2013/02/Texture-Tasty-Grey-Seamless-Pattern-For-Website-Background.jpg);
+    background-image: url(../img/portfolio/fabricBackground.png);
     /*Maybe http://www.modernservice.ru/wp-content/uploads/2014/06/light-gray-texture.png*/
     background-attachment: fixed;
     height:100%;
-    width:100%;
+    min-height:300px;
+    width:110%;
     overflow: hidden;
 }
 
@@ -123,8 +126,8 @@ header .container {
     height: 1200px;
 }
 
-.steadyColumn {
-   background-image: url(/img/NamePicture.png);
+/*.steadyColumn {
+   //background-image: url(/img/NamePicture.png);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -139,9 +142,34 @@ header .container {
     color: transparent;
     text-align: center;
     font-size: 50px;
-    overflow: hidden;
+    //overflow: hidden;
+}*/
+
+.Intro {
+    background-image: url(../img/portfolio/fabricBackground.png);
+    background-position: fixed;
+    background-attachment: fixed;
+    display: block;
 }
 
+.IntroImage {
+    padding:174px 10% 15% 10%;
+}
+
+.steadyColumn {
+   background-image: url(/img/NamePicture.png);
+    background-position: 15% 15%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 80% 20%;
+    height: 100%;
+    width: 100%;
+    //margin-top: 4%;
+    //padding: 18%;
+    color: transparent;
+    
+    font-size: 50px;
+}
 
 .experienceTitle {
     float: left;
@@ -160,7 +188,8 @@ header .container {
     //min-height: 1px;
     font-size: 15px;
     float: left;
-    //display: inline-block;
+    display: inline-block;
+    width: 100%;
 }
 
 .skillsTest li{
@@ -274,7 +303,6 @@ header .container {
 
 
 .row {
-    padding-top: 0;
     text-align: center
 }
 
@@ -385,6 +413,10 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    padding: 10px 0 10px;
+    display: block;
+    position: fixed;
+    width:100%;
 }
 
 .navbar a:focus {
@@ -405,7 +437,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    //padding: 100px 0;
 }
 
 section h2 {
@@ -428,13 +460,13 @@ section.success a.active {
 }
 
 @media(max-width:767px) {
-    section {
+    /*section {
         padding: 75px 0;
     }
 
     section.first {
         padding-top: 75px;
-    }
+    }*/
 }
 
 #portfolio * {
