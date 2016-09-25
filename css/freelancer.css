@@ -335,12 +335,12 @@ header .container {
   width: 300%;
 }
 
-.separator-line {
-    //padding-top: 125px;
-    //padding-bottom: 130px;
-    //display: block;
-    margin: 35px auto 0px auto;
+.section {
+    padding-top: 60px;
+}
 
+.separator-line {
+    margin: 35px auto 0px auto;
     width: 65%;
     border-top: 1px solid #e0e0e0;
     
