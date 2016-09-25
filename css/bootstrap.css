@@ -4058,6 +4058,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li {
   position: relative;
   display: block;
+  background-color: #2e343d;
 }
 .nav > li > a {
   position: relative;
@@ -6576,7 +6577,6 @@ button.close {
 .btn-group-vertical > .btn-group:after,
 .nav:after,
 .navbar:after,
-.navbar-header:after,
 .navbar-collapse:after,
 .pager:after,
 .panel-body:after,
