@@ -171,8 +171,6 @@ header .container {
     font-size: 50px;
 }
 
-
-
 .experienceSectionTitle, #footer .widget-title {
     text-align: center;
     padding-bottom: 5px;
@@ -354,7 +352,7 @@ header .container {
 }
 
 .section {
-    padding-top: 60px;
+    padding-top: 75px;
 }
 
 .separator-line {
