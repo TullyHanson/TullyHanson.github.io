@@ -227,13 +227,12 @@ header .container {
 
 .experienceContainer {
     position: relative;
-    margin-left: 15%;   
+    margin-left: 13%;   
     //display: inline-block;
     text-align: left;
     //display: block;
     //padding: 0!important;
-    //width:70%;
-    
+    //width:70%;   
 }
 
 .experienceContainer:last-of-type {
@@ -245,12 +244,10 @@ header .container {
 }
 
 .container {
-        padding: 0 30px;
-        text-align: center;
-        width: 100%
-    }
-
-
+    padding: 0 30px;
+    text-align: center;
+    width: 100%
+}
 
 .cf:after,.cf:before {
     content: '';
@@ -262,7 +259,6 @@ header .container {
 .cf {
     zoom:1
 }
-
 
 .portfolio-item {
     padding-top: 125px;
