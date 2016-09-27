@@ -153,7 +153,13 @@ header .container {
 }
 
 .IntroImage {
-    padding:100px 10% 15% 10%;
+    padding:125px 10% 15% 10%;
+}
+
+@media(max-width:767px) {
+    .IntroImage {
+        padding-top: 100px;
+    }
 }
 
 .steadyColumn {
