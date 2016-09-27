@@ -248,7 +248,7 @@ header .container {
 @media(max-width:767px) {
     .experienceContainer {
         margin-left: 13%;
-        margin-left: 5%;
+        margin-right: 5%;
     }
 }
 
