@@ -78,6 +78,7 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
+
 mark {
   background: #ff0;
   color: #000;
@@ -1117,7 +1118,8 @@ a {
 a:hover,
 a:focus {
   color: #18bc9c;
-  text-decoration: underline;
+  //text-decoration: underline;
+    background-color: #4cb1f5;
 }
 a:focus {
   outline: thin dotted;

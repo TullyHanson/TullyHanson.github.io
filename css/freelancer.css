@@ -25,7 +25,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #ffffff;
 }
 
 h1,
@@ -173,6 +173,7 @@ header .container {
 
 .experienceSectionTitle, #footer .widget-title {
     text-align: center;
+    padding-top: 35px;
     padding-bottom: 5px;
     background: url(../img/title-arrow.png) center 100% no-repeat;
 }
@@ -227,12 +228,21 @@ header .container {
 
 .experienceContainer {
     position: relative;
-    margin-left: 13%;   
+    //margin-left: 13%;   
     //display: inline-block;
     text-align: left;
     //display: block;
     //padding: 0!important;
     //width:70%;   
+    //margin-left: 13%;
+}
+
+
+
+@media(max-width:767px) {
+    .experienceContainer {
+        margin-left: 13%;
+    }
 }
 
 .experienceContainer:last-of-type {
@@ -348,7 +358,7 @@ header .container {
 }
 
 .section {
-    padding-top: 76px;
+    padding-top: 40px;
 }
 
 .separator-line {
