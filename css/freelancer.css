@@ -224,8 +224,8 @@ header .container {
     font-size:12px;
     background:#328fc0;
     padding:4px 9px;
-    //text-align: left;
     list-style-type: none;
+    white-space:nowrap;
 }
 
 .skillsTest2{
@@ -248,6 +248,7 @@ header .container {
 @media(max-width:767px) {
     .experienceContainer {
         margin-left: 13%;
+        margin-left: 5%;
     }
 }
 
